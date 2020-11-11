@@ -1,0 +1,93 @@
+*{
+    max-resolution: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: coral;
+}
+.logo{
+    color: antiquewhite;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nam{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+.nam a{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 14px;
+
+
+}
+.nam li{
+    list-style: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item-img{
+    margin-right: 5px;
+}
+.item-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.5px;
+
+}
+.item-description{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+}
+.health-tips{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#nutrit
+{display: flex;
+    justify-content: space-around;
+    align-items: center;}
+    body{
+        background-color: darkkhaki;
+
+    }
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding:20px;}
+    #new{
+        width: 15%;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+        
+
+    }
+.wo{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: block;
+}
+   
