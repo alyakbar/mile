@@ -436,7 +436,7 @@ form a{
 
 
 
-@media only screen and (max-width:800){
+@media only screen and (max-width:800px){
     nav ul{
         position: absolute;
         top: 70px;
@@ -461,7 +461,7 @@ form a{
         cursor: pointer;
     }
 }
-@media only screen and (max-width:600){
+@media only screen and (max-width:600px){
     .row{
         text-align: center;
     }
