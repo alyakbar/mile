@@ -8,15 +8,16 @@
   
   <link rel="stylesheet" type="text/css" href="style.css/">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>categories</title>
+<title>rice</title>
 </head>
     <body>
         <div class="header"></div>
 
+
         <div class="container">
         <div class="navbar">
             <div class="logo">
-                <h1 class="titles">Categories</h1>
+                <h1 class="titles">NUTRITION</h1>
             </div>
         </div>
         <nav>
@@ -25,51 +26,45 @@
        <li><a href="offers.html">Offers</a></li>
        <li><a href="#">About</a></li>
        <li><a href="account.html">Account</a></li>
+       
        <li><a href="new.html">New</a></li>
             </ul>
         </nav>
         <a href="cart.html"> <img src="./img/cart.png" alt="" class="logi"></a>
             <img src="./img/menu.png" alt=""  class="menu-icon" onclick="menutoggle()" >
         </div>
-<div class="categories">
-    <div class="small-container">
-    <div class="row">
-        <div class="col-3">
-            <h2>Protien</h2>
-            <img src="img/protein.jpg" alt="" >
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/rices.jpg" alt=""  id="productimg">
+                    
+                </div>
+                <div class="col-2">
+                    <p>Home/vegetables/Rice</p>
+                    <h1>Rice</h1>
+                    <h4>kes 150</h4>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add to cart</a>
+                    <h3>Product Details<i class="fa fa-indent"></i></h3>
+                    <br>
+                    <p>  It May Help Keep Inflammation in Check.it Is Packed With Nutrients. it Is Packed With Vitamins. It Helps Improve Digestion. May Help Keep Your Heart Healthy. May Lower Blood Pressure</p>
+                </div>
+            </div>
         </div>
-        <div class="col-3">
-            <h2>Carbohydrates</h2>
-            <img src="img/carbo.jpg" alt="" >
+
+
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related products</h2>
+                <p>View more</p>
+
+            </div>
         </div>
-        <div class="col-3">
-            <h2>Vitamins</h2>
-            <img src="img/vitamin.jpg" alt="" >
-        </div>
-        <div class="col-3">
-            <h2>Vegetables</h2>
-            <img src="img/veges.jpg" alt="" >
-        </div>
-    </div>
-</div>
-</div>
 <div class="small-container">
-    <h3 class="title">Featured</h3>
     <div class="row">
+       
         <div class="col-4">
-            <a href="product2.html">  <img src="img/rices.jpg" alt="" ></a>
-            <h4>Rices</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-o"></i>
-                        </div>
-            <p>kes 150 per kg</p>
-        </div>
-        <div class="col-4">
-            <a href="tomatoes.html"> <img src="img/indx.jpg" alt="" ></a>
+            <a href="tomatoes.html">   <img src="img/indx.jpg" alt="" ></a>
             <h4>Tomatoes</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -80,8 +75,7 @@
             <p>kes 10</p>
         </div>
         <div class="col-4">
-            <a href="product3.html">  <img src="img/meat.jpg" alt="" ></a>
-
+            <a href="product3.html"><img src="img/meat.jpg" alt="" ></a>
             <h4>Meat</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -93,7 +87,7 @@
             <p>kes 140 per kg</p>
         </div>
         <div class="col-4">
-          <a href="oranges.html">  <img src="img/orange.jpg" alt="" ></a>
+            <a href="oranges.html"> <img src="img/orange.jpg" alt="" ></a>
             <h4>Oranges</h4>
             <div class="rating">
                 <i class="fa fa-star"></i>
@@ -105,7 +99,6 @@
             <p>kes 30</p>
         </div>
     </div>
-    
 </div>
 
 <div class="footer">
@@ -142,7 +135,7 @@
     </div>
 </div>
 <script>
-    var MenuItems =document.getElementById("MenuItems");
+    var MenuItems = document.getElementById("MenuItems");
     MenuItems.style.maxHeight ="0px"
     function menutoggle(){
         if(MenuItems.style.maxHeight =="opx"){
@@ -154,7 +147,26 @@
         }
     }
 </script>
+<script>
+    var productimg = document.getElementById("productimg")
+    var smallmg = document.getElementsByClassName("smallmg")
+      smallmg[0] .onclick = function()
+      {
+          productimg.src = smallmg[0] .src 
+      } 
+      smallmg[1] .onclick = function()
+      {
+          productimg.src = smallmg[1] .src 
+      } 
+      smallmg[2] .onclick = function()
+      {
+          productimg.src = smallmg[2] .src 
+      } 
+      smallmg[3] .onclick = function()
+      {
+          productimg.src = smallmg[3] .src 
+      } 
+</script>
 </body>
 
-    
-    </html>
+        </html>
