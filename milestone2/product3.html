@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" type="text/css" href="style.css/">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <div class="header">
+
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <h1 class="titles">NUTRITION</h1>
+            </div>
+        </div>
+        <nav>
+            <ul id="menu">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="offers.html">Offers</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="account.html">Account</a></li>
+       
+       <li><a href="new.html">New</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"> <img src="./img/cart.png" width="30px" height="30px" color="#ffd6d6"></a>
+            <img src="./img/menu.png" class="menu-icon" onclick="menutoggle()" >
+        </div>
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/meat.jpg" width="100%" id="productimg">
+                   
+                </div>
+                <div class="col-2">
+                    <p>Home/protiens/meat</p>
+                    <h1>Meat</h1>
+                    <h4>kes 140</h4>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add to cart</a>
+                    <h3>Product Details<i class="fa fa-indent"></i></h3>
+                    <br>
+                    <p>  It May Help Keep Inflammation in Check.Cabbage Is Packed With Nutrients. Cabbage Is Packed With Vitamin C. It Helps Improve Digestion. May Help Keep Your Heart Healthy. May Lower Blood Pressure</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>related products</h2>
+                <p>view more</p>
+
+            </div>
+        </div>
+<div class="small-container">
+    <div class="row">
+        <div class="col-4">
+            <a href="product2.html"> <img src="img/rices.jpg">
+             <h4>Rices</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                        </div>
+            <p>kes 150 per kg</p>
+        </div>
+        <div class="col-4">
+            <a href="tomatoes.html">  <img src="img/indx.jpg"></a>
+            <h4>Tomatoes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                        </div>
+            <p>kes 10</p>
+        </div>
+      
+        <div class="col-4">
+            <a href="oranges.html"><img src="img/orange.jpg"></a>
+            <h4>Oranges</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                        </div>
+            <p>kes 30</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="f-col-1">
+                <h3>Download Our App</h3>
+                <p>Download our app for Andriod and IOS</p>
+                <div class="alogo">
+                    <img src="img/newse.png">
+                </div>
+            </div><div class="f-col-2">
+                <p>Our purpose is to provide you with best organic food and its freshness we hope you enjoy our servives.<br>Thank You. </p>
+            </div>
+            <div class="f-col-3">
+                <h3>Links</h3>
+                <ul>
+                    <li>Blog Post</li>
+                    <li>Return POlicy</li>
+                    <li>Affiliates</li>
+                </ul>
+            </div>
+            <div class="f-col-4">
+                <h3>Follow us on</h3>
+                <ul>
+                    <li>Youtube</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="copy">copyright &copy; 2018 - NUTRITION</div>
+    </div>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight ="0px"
+    function menutoggle(){
+        if(MenuItems.style.maxHeight =="opx"){
+            MenuItems.style.maxHeight ="200px"
+        }
+        else{
+            MenuItems.style.maxHeight ="0px"
+
+        }
+    }
+</script>
+<script>
+    var productimg = document.getElementById("productimg")
+    var smallmg = document.getElementsByClassName("smallmg")
+      smallmg[0] .onclick = function()
+      {
+          productimg.src = smallmg[0] .src 
+      } 
+      smallmg[1] .onclick = function()
+      {
+          productimg.src = smallmg[1] .src 
+      } 
+      smallmg[2] .onclick = function()
+      {
+          productimg.src = smallmg[2] .src 
+      } 
+      smallmg[3] .onclick = function()
+      {
+          productimg.src = smallmg[3] .src 
+      } 
+</script>
+</body>
+
+        </html>
