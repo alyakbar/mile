@@ -26,6 +26,10 @@ nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
+.logi{
+    width:30px;
+    height:30px;    
+}
 .container{
     max-width: 1300px;
     margin: auto;
@@ -361,6 +365,12 @@ th:last-child{
 .account-page{
     padding: 50px;
     background: radial-gradient(#fff,#ffd6d6);
+}
+#productimg{
+    width:100%;
+}
+.smallmg{
+    width:100%;
 }
 .form-container{
     background: #fff;
